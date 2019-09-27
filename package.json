@@ -1,0 +1,26 @@
+{
+  "name": "proto-garage-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon index.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "apollo-server-koa": "^2.9.4",
+    "dotenv": "^8.1.0",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.5",
+    "mongoose": "^5.7.1"
+  }
+}
